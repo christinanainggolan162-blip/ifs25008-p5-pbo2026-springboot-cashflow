@@ -25,9 +25,10 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
-
+import com.vaadin.flow.router.RouteAlias;   // TAMBAHKAN INI
 /** Dashboard cashflow pribadi: ringkasan saldo, cari, urut, tambah, ubah, hapus. */
 @Route(value = "", layout = MainLayout.class)
+@RouteAlias(value = "dashboard", layout = MainLayout.class)   // TAMBAHKAN
 @PageTitle("Cashflow | Catatan Keuangan")
 public class FinanceView extends VerticalLayout {
 

@@ -100,3 +100,6 @@ hs_err_pid*
 replay_pid*
 *.class
 .attach_pid*
+
+src/main/bundles/
+.vaadin-node-tasks.lock

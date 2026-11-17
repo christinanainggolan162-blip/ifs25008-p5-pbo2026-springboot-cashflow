@@ -21,9 +21,11 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.component.upload.Upload;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
+import com.vaadin.flow.router.RouteAlias;
 import com.vaadin.flow.server.streams.UploadHandler;
 
 @Route(value = "profile", layout = MainLayout.class)
+@RouteAlias(value = "profile", layout = MainLayout.class)
 @PageTitle("Profil | Cashflow")
 public class ProfileView extends VerticalLayout {
 
